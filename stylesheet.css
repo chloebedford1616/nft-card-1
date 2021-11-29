@@ -1,0 +1,80 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    height: 100em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: hsl(216, 50%, 16%);
+    width: 40vw;
+    height: 60vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 9px;
+}
+
+h3 {
+    color: white; font-family: 'Outfit', sans-serif; font-size: 18px;
+}
+.box__img {
+    width: 100%; 
+    object-fit: contain;
+    position: relative;
+}
+.box__text {
+    color: #ECECEC; font-family: 'Outfit', sans-serif; font-size: 12px;
+}
+
+.diamond {
+    padding-right: 12px;
+    position: relative;
+
+}
+.diamond_text {
+    color: hsl(178, 100%, 50%); font-family: 'Outfit', sans-serif; font-size: 12px;
+    display: inline;
+
+}
+.clock_icon {
+    padding-left: 5px;
+}
+
+.clock_text {
+color: hsl(211, 67%, 67%);
+font-family: 'Outfit', sans-serif; 
+font-size: 11px;
+padding-top: 2px;
+}
+
+hr {
+    border-color: white}
+
+.avatar_icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+} 
+
+#av_text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    color: hsl(211, 67%, 67%);
+    padding-left: 15px;
+    padding-top: 6px;
+    text-align: center;
+}
+
